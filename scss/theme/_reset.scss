@@ -1,0 +1,115 @@
+
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: $primary-font;
+    font-weight: normal;
+    color: $text-color;
+    background: #fff;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $title-color;
+    font-family: $primary-font;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    @include transition();
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.slick-slide:focus {
+    outline: none;
+    box-shadow: none;
+}
+.slick-slide img {
+    display: inline-block!important;
+}
+
+input, textarea {
+    line-height: 60px;
+    border: none;
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #8A8AA4;
+    border-radius: 6px;
+}
+input:focus, textarea:focus {
+    border: 1px solid #0084CD;
+    box-shadow: none;
+    outline: none;
+}
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    border: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto!important;
+}

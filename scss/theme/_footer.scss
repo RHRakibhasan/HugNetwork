@@ -1,0 +1,38 @@
+/* Footer area css
+============================================================================================ */
+.footer-area {
+    background: #fff;
+    .footer-top {
+        text-align: center;
+        padding: 50px 0;
+        border-bottom: 1px solid #ECECEC;
+        img {
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 22px;
+            margin-bottom: 0;
+            color: #8A8AA4;
+        }
+    }
+    .footer-bottom {
+        padding: 20px 0; 
+        .copyright {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .footer-menu {
+            text-align: right;
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                a {
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}
